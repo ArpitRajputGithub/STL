@@ -105,4 +105,6 @@ int main()
 
    v.erase(v.begin(),v.begin()+2); //--> erases v[0], v[1] 
 
+
+
 }
