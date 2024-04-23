@@ -25,13 +25,13 @@ int main()
 
     //  VECTORS
 
-    vector<int> v; // declare vector
+    vector <int> v; // declare vector
 
     int n; //Number of elements
     cin >> n;
     int ele;
 
-    for (int i = 0; i < 5; i++) // add values to vector/array
+    for (int i = 0; i < n; i++) // add values to vector/array
     {
         cin >> ele;
         v.push_back(ele);
@@ -74,7 +74,8 @@ int main()
     v.pop_back();
 
     //INSERTION
-   // v.insert(position,element);
+   // standard -->  v.insert(position,element);
+   
     v.begin(); //--> address of v[0]
    // *v.begin() --> reference/value of v[0]
 
